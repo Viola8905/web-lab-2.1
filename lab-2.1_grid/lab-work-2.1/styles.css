@@ -1,0 +1,48 @@
+
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+.grid-wrapper > *{
+	padding: 50px;
+	border: dashed 2px gray;
+	margin: 20px;
+}
+
+.grid-wrapper {
+	display: grid;
+	
+
+
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-template-areas: 
+	'header header'
+	'menu menu'
+	'content side'
+	'content under'
+	'footer footer';
+}
+
+.header-wrapper {
+	grid-area: header;
+}
+.menu-wrapper {
+	grid-area: menu;
+
+}
+.content-wrapper {
+	grid-area: content;
+	grid-row: span 2;
+}
+.side-wrapper {
+	grid-area: side;
+}
+.bottom-side-wrapper {
+	grid-area: under;
+}
+
+.footer-wrapper {
+	grid-area: footer;
+}

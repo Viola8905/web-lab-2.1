@@ -1,0 +1,173 @@
+Обнуление
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+body{
+    font-family: 'Prata', serif;
+}
+
+.wrapper { 
+    min-height: 100%;
+	overflow: hidden;
+
+	display: flex;
+	flex-direction: column;
+}
+.content { 
+    flex: 1 1 auto;
+}
+.header { 
+    
+}
+.container {
+    max-width: 1180px;
+	margin: 0px auto;
+ }
+.header__title { 
+    background-color: rgb(235, 63, 63);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+.menu {
+    
+    
+    font-size: 18px;
+ }
+.menu__list { 
+    background-color: rgb(241, 207, 207);
+    display: flex;
+    justify-content: center;
+    padding: 35px 0;
+    margin: 0;
+    
+    
+
+}
+
+.menu__list li{
+    margin: 0  10px;
+   
+}
+.menu__link { 
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+.body { }
+.body__row { 
+    display: flex;
+}
+.body__vmist { 
+    flex:0 1 70%;
+    background-color: rgb(217, 224, 222);
+}
+.body__info-about-concert { }
+.body__news-culturelife { }
+.body__location { 
+    margin-top: 80px;
+}
+.decr1 { 
+    line-height: 27px;
+    padding: 0 20px;
+}
+.decr1 p {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    
+ }
+
+.amfiteatr { 
+   display: flex;
+   justify-content: center;
+}
+.amfiteatr img{
+    max-width: 700px;
+    padding-top: 30px;
+   
+}
+.descr2 { 
+    padding: 30px 20px;
+    line-height: 27px;
+}
+.body__artist-info { }
+
+.body__together { 
+    background-color: brown;
+    flex:0 1 30%;
+}
+.body-together__row { 
+    display: flex;
+    flex-direction: column;
+}
+.body__add {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+
+.add_block1{
+    width: 200px;
+    height: 500px;
+    background-color: rgb(115, 115, 199);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.add_block2{
+    width: 200px;
+    height: 500px;
+    background-color: rgb(206, 187, 15);
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    
+}
+
+.body__contact-info { }
+
+.body__info-about-concert{
+   
+    
+}
+.body__info-about-concert-img{
+    
+    
+}
+.body__info-about-concert-text{
+    padding: 20px 20px;
+    line-height: 25px;
+}
+
+
+.footer {
+    background-color: rgb(151, 150, 150);
+ }
+.footer__row { 
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.footer__text { }
